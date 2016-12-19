@@ -3,22 +3,28 @@
 	<title>Mod2 Assignment</title>
 	<meta name="viewport" content="width=display-width initial-scale=1">
 	<style>
-		 
+		 * {
+  box-sizing: border-box;
+}
 		 h1{
 			text-align:center;
 			padding-top:130px;
+			padding-right:20px;
 			font-family:helvetica;
+			margin:0px;
 		 }
+		 p {
+			  width : 90%;
+			  height:30%;
+			  
+			}
 		 
 		 
 
 		@media(min-width:992px){
-			.holder{
-					padding:0px;
-					margin:20px;
-					width:100%;
+			
 				
-			}
+	
 			h2{
 				margin:0px;
 			}
@@ -30,10 +36,11 @@
 			 .box1{
 					width:26.6666%;
 					padding:0px;
-					border:1px solid black;
+					border:2px solid black;
 					float:left;
 					background-color:#D3D3D3;
-					margin:50px 10px 0px 0px;
+					margin:50px 10px 0px 100px;
+					
 			}
 			
 			.box2{
@@ -50,15 +57,22 @@
 					width:26.6666%;		
 			}
 			.h{
-				
+					font-size:80%;
 					position:relative;
 					top:0px;
 					right:-77%;
 					padding-top:0px;
 					padding-left:0px;
-					background-color:orange;
+					background-color:#7873AD;
 					text-align:center;
 					width:23%;
+					border:2px solid black;
+			}
+			.h2{
+				background-color:orange;
+			}
+			.h3{
+				background-color:yellow;
 			}
 		}
 		
@@ -80,9 +94,10 @@
 					right:-77%;
 					padding-top:0px;
 					padding-left:0px;
-					background-color:orange;
+					background-color:#7873AD;
 					text-align:center;
 					width:23%;
+					border:2px solid black;
 			}
 			div p{
 					padding-left:10px;
@@ -92,7 +107,7 @@
 			.box1{
 					width:47%;
 					padding:0px;
-					border:1px solid black;
+					border:2px solid black;
 					float:left;
 					background-color:#D3D3D3;
 					margin:50px 26px 10px 0px;
@@ -102,6 +117,7 @@
 					width:47%;
 					margin:50px 0px 10px 0px;
 					float:right;
+					
 					
 
 			}
@@ -120,10 +136,29 @@
 					padding-left: -10px;
 					width:14%;
 			}
+			.h2{
+				background-color:orange;
+			}
+			.h3{
+				background-color:yellow;
+			}
 		}
 		
 		@media(max-width:767px){
-		 
+			h1{
+				padding:0px;
+			}
+			.holder{
+				margin:10px;
+			}
+			.box1{
+				background-color:#D3D3D3;
+				border:2px solid black;
+				margin:20px 0px 10px 0px;
+				width:100%;
+				height:30%;
+			}
+			
 		}
 	</style>
 </head>
@@ -131,12 +166,12 @@
 	<h1>My First Assignment</h1>
 	<div class="holder">
 		<div class="box1">
-			<div class="h"><h2>Hacker</h2></div>
-			<p>Computer programming (often shortened to programming) is a process that leads from an original formulation of a computing problem to executable computer programs. Programming involves activities such as analysis, developing understanding, generating algorithms</p>
+			<div class="h h1"><h2>Hacker</h2></div>
+			<p>Computer programming (often shortened to programming) is a process that leads from an original formulation of a computing problem to executable computer programs. Programming involves activities such as analysis, developing understanding.</p>
 		</div>
 		<div class="box1 box2">
-			<div class="h"><h2>Hacker</h2></div>
-			<p>Related tasks include testing, debugging, and maintaining the source code, implementation of the build system, and management of derived artifacts such as machine code of computer programs. These might be considered part of the programming process, but often the </P>
+			<div class="h h2"><h2>Hacker</h2></div>
+			<p>Related tasks include testing, debugging, and maintaining the source code, implementation of the build system, and management of derived artifacts such as machine code of computer programs. These might be considered part. </P>
 		</div>
 		<div class="box1 box3">
 			<div class="h h3"><h2>Hacker</h2></div>
