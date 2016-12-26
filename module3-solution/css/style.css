@@ -1,0 +1,32 @@
+.navbar-header a{
+	text-decoration:none;
+}
+
+.main{
+	margin:10% 0 0 0;
+}		
+#part1{
+	padding:10px;
+	background-color:gray;
+	margin-bottom:2%;
+	
+}
+#part2{
+	padding:10px;
+	background-color:gray;
+	margin-bottom:2%;
+	}
+#part3{
+	padding:10px;
+	background-color:gray;
+	margin-bottom:2%;
+	}
+#collapsable-nav ul li a{
+	border:1px solid black;
+}
+#nav1 #brand{
+	font-size:30px;
+}
+.container a{
+	color:white;
+}
